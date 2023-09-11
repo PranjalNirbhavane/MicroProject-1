@@ -1,0 +1,184 @@
+
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 890px;
+            width: 1440px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .Header
+        {
+            background: #FFCD9E;
+            display: flex;
+            height: 592px;
+            width: 1440px;
+            flex-direction: row; 
+        }
+        .topleft {
+           width: 1440px;
+           height: 800px;
+          
+        }
+        .topright {
+            margin-top: 20px;
+            width: 575px;
+            height: 575px;
+        }
+        .first{
+            margin-top: 83px;
+            margin-left: 136px;
+            width: 562px;
+            height: 108px;;
+            font-family: Inter;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            text-align: left;
+            
+        }
+
+        .second
+        {
+            margin-left: 136px;
+            font-family: Inter;
+            width: 495px;
+            height: 81px;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 32px;
+            text-align: left;
+            color: #484848;
+        }
+        
+        .third
+        {
+            font-family: Inter;
+            margin-left: 136px;
+            margin-top: 50px;
+            margin-bottom: 40px;  
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 32px;
+            text-align: left;
+            vertical-align: middle;
+    
+        }
+
+        .email::placeholder
+        {
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 32px;
+            text-align: left;
+            padding-left: 22px;
+
+        }
+
+        .email
+        {
+            margin-left: 136px;
+            height: 56px;
+            top: 411px;
+            left: 158px;
+            width: 344px;
+            border-width: 4px;
+            border-radius: 8px;
+            border-color: black;
+        }
+
+        .nospamtext
+        {
+
+            width: 344px;
+            height: 61px;
+            top: 479px;
+            left: 134px;
+            margin-left: 134px;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: center;
+            color: white;
+        }
+
+        .register
+        {
+            width: 216px;
+            height: 64px;
+            top: 411px;
+            margin-left: 10px;    
+            border-radius: 8px;
+            font-family:inter ;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+            color: white;
+            background-color: #282828;
+        }
+       
+        .Footer
+        {
+            flex-direction: row;
+            background: #282828;
+            display: flex;
+            width: 1440px;
+            height: 298px;
+            
+        }
+        
+        ul
+        {
+            list-style-type: none;
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32px;
+            color: white;
+        }
+
+        .bottomright
+        {      
+            width: 50%;
+        }
+        
+        .bottomleft
+        {
+            width: 50%;
+        }
+        .bottomleftlist
+        {
+            margin-top: 62px;
+            margin-left: 191px;
+            padding-left: 0%;   
+        }
+
+        .bottomleftlist li
+        {    
+            height: 36px;
+        }
+        
+        .bottomrightlist li
+        {
+            
+            height: 36px;
+        }
+
+        .bottomrightlist
+        {
+            text-align: right;
+            margin-right: 193px;
+            margin-top: 62px;
+           
+        }
+
+        .link
+        {
+            margin-top: 36px;
+        }
